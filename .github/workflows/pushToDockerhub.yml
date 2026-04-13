@@ -23,7 +23,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            tomatentim/freegames-notifier
+            lunyaadev/freegames-notifier
           tags: |
             type=ref,event=branch
             type=ref,event=pr
